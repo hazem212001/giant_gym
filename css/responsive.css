@@ -1,0 +1,499 @@
+@media screen and (min-width: 280px) and (max-width: 319px){
+    .container {
+        position: absolute;
+        animation:none;
+        box-shadow: none;
+    }
+    .container .img{
+        display: block;
+        box-shadow:
+    6px 6px 10px rgb(31, 0, 9),
+    -6px -6px 10px rgba(129, 0, 43, 0.541),
+    inset 2px 2px 6px rgba(129, 0, 43, 0.541),
+    inset -3px -3px 6px rgb(31, 0, 9);
+    }
+    header .logo {
+        float: left;
+        margin-left: 20px;
+    }
+    nav ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(rgba(129, 0, 43, 0.541) , rgb(31, 0, 9));
+    }
+    nav ul.is-active{
+        display: block;
+    }
+    header nav ul li {
+        display: grid;
+        text-align: center;
+        border: none;
+    }
+    header nav ul li a{
+        margin-top: 25px;
+    }
+    #menu{
+        display: block;
+        float: right;
+        margin-right: 20px;
+        margin-top: 50px;
+    }
+    footer {
+        top: 38vh;
+        display: grid;
+    }
+    footer a img{
+        padding-top: 5px;
+    }
+    footer a img:hover{
+        transform: translateX(50%);
+        transition: 0.5s;
+    }
+    .page2 .details .img1 {
+        width: 250px;
+        height: 250px;
+        float: none;
+        margin: auto;
+    }
+    .page2 .details p{
+        margin: revert;
+    }
+    section .details .content1 center img {
+        margin: 35px;
+    }
+    section .details .content1 center ul li {
+        display: inline-block;
+        margin: 0px 3px 0px 17px;
+        display: none;
+    }
+    section .details .content2 center img {
+        margin: 35px;
+    }
+    section .details .content2 center h3 {
+        font-size: 18px;
+    }
+    section .details .content2 center ul li {
+        display: inline-block;
+        margin: 0px 0px 0px 6px;
+        display: none;
+    }
+    section .details .content3 center img {
+        margin: 35px;
+    }
+    section .details .content3 center ul li {
+        display: inline-block;
+        margin: 0px 20px 0px 37px;
+        display: none;
+    }
+    .page4 .details .img2{
+        width: 250px;
+        height: 250px;
+        float: none;
+        margin: auto;
+    }
+    .page4 .details center form{
+        float: none;
+        margin: auto;
+    }
+    .page4 .details center input{
+        margin: auto;
+        margin-top: 30px;
+        width: 250px;
+    }
+    .page4 .details center #area{
+        margin: auto;
+        margin-top: 20px;
+        width: 250px;
+    }
+    .page5 h2{
+        font-size: 20px;
+        float: none;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .container {
+        position: absolute;
+        animation:none;
+        box-shadow: none;
+    }
+    .container .img{
+        display: block;
+        box-shadow:
+    6px 6px 10px rgb(31, 0, 9),
+    -6px -6px 10px rgba(129, 0, 43, 0.541),
+    inset 2px 2px 6px rgba(129, 0, 43, 0.541),
+    inset -3px -3px 6px rgb(31, 0, 9);
+    }
+    header .logo {
+        float: left;
+        margin-left: 20px;
+    }
+    nav ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(rgba(129, 0, 43, 0.541) , rgb(31, 0, 9));
+    }
+    nav ul.is-active{
+        display: block;
+    }
+    header nav ul li {
+        display: grid;
+        text-align: center;
+        border: none;
+    }
+    header nav ul li a{
+        margin-top: 25px;
+    }
+    #menu{
+        display: block;
+        float: right;
+        margin-right: 20px;
+        margin-top: 50px;
+    }
+    footer {
+        top: 38vh;
+        display: grid;
+    }
+    footer a img{
+        padding-top: 5px;
+    }
+    footer a img:hover{
+        transform: translateX(50%);
+        transition: 0.5s;
+    }
+    .page2 .details .img1 {
+        width: 300px;
+        height: 300px;
+        float: none;
+        margin: auto;
+    }
+    .page2 .details p{
+        margin: revert;
+    }
+    section .details .content1 center img {
+        margin: 35px;
+    }
+    section .details .content1 center ul li {
+        display: inline-block;
+        margin: 0px 3px 0px 17px;
+    }
+    section .details .content2 center img {
+        margin: 35px;
+    }
+    section .details .content2 center h3 {
+        font-size: 18px;
+    }
+    section .details .content2 center ul li {
+        display: inline-block;
+        margin: 0px 0px 0px 6px;
+    }
+    section .details .content3 center img {
+        margin: 35px;
+    }
+    section .details .content3 center ul li {
+        display: inline-block;
+        margin: 0px 20px 0px 37px;
+    }
+    .page4 .details .img2{
+        width: 300px;
+        height: 300px;
+        float: none;
+        margin: auto;
+    }
+    .page4 .details center form{
+        float: none;
+        margin: auto;
+    }
+    .page4 .details center input{
+        margin: auto;
+        margin-top: 30px;
+        width: 300px;
+    }
+    .page4 .details center #area{
+        margin: auto;
+        margin-top: 20px;
+        width: 300px;
+    }
+    .page5 h2{
+        font-size: 20px;
+        float: none;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 576px) and (max-width:767px){
+    .container {
+        position: absolute;
+        animation:none;
+        box-shadow: none;
+    }
+    .container .img{
+        display: block;
+        box-shadow:
+    6px 6px 10px rgb(31, 0, 9),
+    -6px -6px 10px rgba(129, 0, 43, 0.541),
+    inset 2px 2px 6px rgba(129, 0, 43, 0.541),
+    inset -3px -3px 6px rgb(31, 0, 9);
+    }
+    header .logo {
+        float: left;
+        margin-left: 20px;
+    }
+    nav ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(rgba(129, 0, 43, 0.541) , rgb(31, 0, 9));
+    }
+    nav ul.is-active{
+        display: block;
+    }
+    header nav ul li {
+        display: grid;
+        text-align: center;
+        border: none;
+    }
+    header nav ul li a{
+        margin-top: 25px;
+    }
+    #menu{
+        display: block;
+        float: right;
+        margin-right: 20px;
+        margin-top: 50px;
+    }
+    footer {
+        top: 38vh;
+        display: grid;
+    }
+    footer a img{
+        padding-top: 5px;
+    }
+    footer a img:hover{
+        transform: translateX(50%);
+        transition: 0.5s;
+    }
+    .page2 .details .img1 {
+        width: 400px;
+        height: 400px;
+        float: none;
+        margin: auto;
+    }
+    .page2 .details p{
+        margin: revert;
+    }
+    .page4 .details .img2{
+        width: 400px;
+        height: 400px;
+        float: none;
+        margin: auto;
+    }
+    .page4 .details center form{
+        float: none;
+        margin: auto;
+    }
+    .page4 .details center input{
+        margin: auto;
+        margin-top: 30px;
+    }
+    .page4 .details center #area{
+        margin: auto;
+        margin-top: 20px;
+    }
+    .page5 h2{
+        float: none;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:991px){
+    .container {
+        position: absolute;
+        animation:none;
+        box-shadow: none;
+    }
+    .container .img{
+        display: block;
+        box-shadow:
+    6px 6px 10px rgb(31, 0, 9),
+    -6px -6px 10px rgba(129, 0, 43, 0.541),
+    inset 2px 2px 6px rgba(129, 0, 43, 0.541),
+    inset -3px -3px 6px rgb(31, 0, 9);
+    }
+    header .logo {
+        float: left;
+        margin-left: 20px;
+    }
+    nav ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(rgba(129, 0, 43, 0.541) , rgb(31, 0, 9));
+    }
+    nav ul.is-active{
+        display: block;
+    }
+    header nav ul li {
+        display: grid;
+        text-align: center;
+        border: none;
+    }
+    header nav ul li a{
+        margin-top: 25px;
+    }
+    #menu{
+        display: block;
+        float: right;
+        margin-right: 20px;
+        margin-top: 50px;
+    }
+    footer {
+        top: 38vh;
+        display: grid;
+    }
+    footer a img{
+        padding-top: 5px;
+    }
+    footer a img:hover{
+        transform: translateX(50%);
+        transition: 0.5s;
+    }
+    .page2 .details .img1 {
+        width: 400px;
+        height: 400px;
+        float: none;
+        margin: auto;
+    }
+    .page2 .details p{
+        margin: revert;
+    }
+    .page4 .details .img2{
+        width: 400px;
+        height: 400px;
+        float: none;
+        margin: auto;
+    }
+    .page4 .details center form{
+        float: none;
+        margin: auto;
+    }
+    .page4 .details center input{
+        margin: auto;
+        margin-top: 30px;
+    }
+    .page4 .details center #area{
+        margin: auto;
+        margin-top: 20px;
+    }
+    .page5 h2{
+        float: none;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 992px) and (max-width:1279px){
+    .container {
+        position: absolute;
+        animation:none;
+        box-shadow: none;
+    }
+    .container .img{
+        display: block;
+        box-shadow:
+    6px 6px 10px rgb(31, 0, 9),
+    -6px -6px 10px rgba(129, 0, 43, 0.541),
+    inset 2px 2px 6px rgba(129, 0, 43, 0.541),
+    inset -3px -3px 6px rgb(31, 0, 9);
+    }
+    header .logo {
+        float: left;
+        margin-left: 20px;
+    }
+    nav ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(rgba(129, 0, 43, 0.541) , rgb(31, 0, 9));
+    }
+    nav ul.is-active{
+        display: block;
+    }
+    header nav ul li {
+        display: grid;
+        text-align: center;
+        border: none;
+    }
+    header nav ul li a{
+        margin-top: 25px;
+    }
+    #menu{
+        display: block;
+        float: right;
+        margin-right: 20px;
+        margin-top: 50px;
+    }
+    footer {
+        top: 38vh;
+        display: grid;
+    }
+    footer a img{
+        padding-top: 5px;
+    }
+    footer a img:hover{
+        transform: translateX(50%);
+        transition: 0.5s;
+    }
+    .page2 .details .img1 {
+        width: 400px;
+        height: 400px;
+        float: none;
+        margin: auto;
+    }
+    .page2 .details p{
+        margin: revert;
+    }
+    .page4 .details .img2{
+        width: 400px;
+        height: 400px;
+        float: none;
+        margin: auto;
+    }
+    .page4 .details center form{
+        float: none;
+        margin: auto;
+    }
+    .page4 .details center input{
+        margin: auto;
+        margin-top: 30px;
+    }
+    .page4 .details center #area{
+        margin: auto;
+        margin-top: 20px;
+    }
+    .page5 h2{
+        float: none;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 1549px){
+    .page5 h2{
+        padding-top: 180px;
+        float: none;
+        margin: auto;
+    }
+}
